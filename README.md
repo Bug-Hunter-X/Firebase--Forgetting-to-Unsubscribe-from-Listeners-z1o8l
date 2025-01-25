@@ -1,0 +1,2 @@
+# Firebase Unsubscribe Bug
+This repository demonstrates a common error in Firebase applications: forgetting to unsubscribe from Realtime Database or Authentication listeners.  Failure to unsubscribe leads to memory leaks and performance issues. The `firebaseBug.js` file shows the problematic code, while `firebaseBugSolution.js` provides the correct solution.
